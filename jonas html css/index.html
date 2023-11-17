@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Simple html only page</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <h1>Hey, this is the simple html only page</h1>
       <div>
         <a href="blog.html">Blog</a>
@@ -20,19 +21,17 @@
       <header>
         <h2>The Basic Language of the Web: HTML</h2>
         <img
-          src="/img/laura-jones.jpg"
+          src="img/laura-jones.jpg"
           alt="laura jones image"
           width="50"
           height="50"
         />
-        <p>
-          Lorem ipsum dolor <i>sit, amet consectetur</i> adipisicing elit.
-          Facilis in cum beatae ullam sequi, similique sapiente dolorum aliquam
-          optio laboriosam, deserunt unde quaerat accusamus corrupti quod
-          repellendus reiciendis dolores! Saepe?
+        <p id="author">
+          Lorem ipsum dolor <strong>sit, amet consectetur</strong> adipisicing
+          elit.
         </p>
 
-        <img src="/img/post-img.jpg" alt="HTML code" width="500" height="200" />
+        <img src="img/post-img.jpg" alt="HTML code" width="500" height="200" />
       </header>
 
       <p>
@@ -104,7 +103,7 @@
 
     <aside>
       <h4>Related Posts</h4>
-      <ul>
+      <ul class="posts">
         <li>
           <img src="img/related-1.jpg" alt="" width="75" height="75" />
           <a href="#">How to learn Web Development</a>
@@ -123,6 +122,8 @@
       </ul>
     </aside>
 
-    <footer>Copyright &copy; 2027 by Yash.</footer>
+    <footer>
+      <p>Copyright &copy; 2027 by Yash.</p>
+    </footer>
   </body>
 </html>
