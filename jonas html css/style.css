@@ -67,3 +67,21 @@ aside {
   border-top: 4px dashed rgb(94, 66, 142);
   border-bottom: 4px dashed rgb(94, 66, 142);
 }
+
+/* li:first-child {
+  font-weight: bold;
+} */
+
+/* a {
+  color: #1098ad;
+} */
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(6, 52, 59);
+  font-weight: bold;
+}
