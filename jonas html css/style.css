@@ -1,9 +1,5 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+body {
+  border-top: 15px solid #1098ad;
   font-family: sans-serif;
 }
 
@@ -23,22 +19,32 @@ h1 {
 h2 {
   font-size: 30px;
   text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
 h3 {
   font-size: 28px;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 h4 {
   font-size: 26px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 10px;
 }
 
 p {
   font-size: 22px;
   line-height: 1;
+  margin-bottom: 10px;
 }
 
 li {
@@ -60,12 +66,23 @@ footer p {
 
 .header {
   background-color: rgb(223, 223, 223);
+  padding: 1px 40px 10px 40px;
+  margin-bottom: 40px;
+}
+
+.header2 {
+  margin-bottom: 40px;
+}
+
+article {
+  margin-bottom: 50px;
 }
 
 aside {
   background-color: rgb(255, 255, 221);
   border-top: 4px dashed rgb(94, 66, 142);
   border-bottom: 4px dashed rgb(94, 66, 142);
+  padding: 30px 10px;
 }
 
 /* li:first-child {
