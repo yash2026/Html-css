@@ -83,6 +83,12 @@ aside {
   border-top: 4px dashed rgb(94, 66, 142);
   border-bottom: 4px dashed rgb(94, 66, 142);
   padding: 30px 10px;
+  width: 640px;
+}
+
+.image2 {
+  width: 100%;
+  height: auto;
 }
 
 /* li:first-child {
