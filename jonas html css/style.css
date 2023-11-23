@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   border-top: 15px solid #1098ad;
   font-family: sans-serif;
@@ -38,7 +43,7 @@ h4 {
 
 ul,
 ol {
-  margin-left: 50px;
+  margin-left: 10px;
   margin-bottom: 10px;
 }
 
@@ -63,6 +68,7 @@ footer p {
 
 .posts {
   list-style: none;
+  margin-left: 0;
 }
 
 .header {
@@ -84,7 +90,6 @@ aside {
   border-top: 4px dashed rgb(94, 66, 142);
   border-bottom: 4px dashed rgb(94, 66, 142);
   padding: 30px 10px;
-  width: 560px;
 }
 
 .image2 {
@@ -111,7 +116,7 @@ a:hover {
 }
 
 .container {
-  width: 760px;
+  width: 1200px;
   margin: 0 auto;
   position: relative;
 }
@@ -137,4 +142,63 @@ nav a:link:last-child {
   position: absolute;
   right: 50px;
   bottom: 50px;
+}
+
+h2 {
+  position: relative;
+}
+
+h2::before {
+  content: "TOP";
+  background-color: #ffe70e;
+  color: #444;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: -25px;
+}
+
+.authimg {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  /* padding-left: 60px; */
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+article {
+  width: 800px;
+  float: left;
+}
+aside {
+  width: 300px;
+  float: right;
+}
+footer {
+  clear: both;
 }
