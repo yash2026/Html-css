@@ -53,6 +53,8 @@
         grid-template-columns: repeat(4, 1fr);
 
         gap: 10px;
+
+        display: none;
       }
 
       .container--2 {
@@ -60,13 +62,21 @@
         font-family: sans-serif;
         background-color: black;
         font-size: 40px;
-        margin: 100px;
+        margin: 40px;
 
-        width: 1000px;
+        width: 700px;
         height: 600px;
-        display: none;
+        /* display: none; */
 
         /* CSS GRID */
+        display: grid;
+        grid-template-columns: 100px 125px 100px;
+        grid-template-rows: 300px 200px;
+
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
       }
     </style>
   </head>
