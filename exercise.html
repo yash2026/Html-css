@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+      }
+
+      .main {
+        background-image: url("/exercise-img/background.webp");
+        background-repeat: no-repeat;
+        background-size: 100% 50%;
+        height: 200svh;
+      }
+
+      .navbar {
+        /* width: 90%; */
+        /* background-color: aquamarine; */
+        opacity: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 25% 45% 15% 15%;
+        align-items: center;
+        padding: 0 50px 0 50px;
+        border-bottom: 0.2px solid #ffffff42;
+        height: 80px;
+      }
+
+      .navbar img {
+        width: 80px;
+        height: auto;
+        border-radius: 12px;
+        margin-left: 12px;
+      }
+
+      ul {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+      }
+
+      li {
+        list-style: none;
+      }
+
+      li a {
+        text-decoration: none;
+        color: black;
+      }
+
+      .btn {
+        width: auto;
+        height: 30px;
+        margin: 12px;
+        border-radius: 12px;
+        border: none;
+        font-size: 15px;
+        font-weight: 500;
+      }
+
+      .partner {
+        /* background-color: black; */
+        /* opacity: 100%; */
+        background-color: #ffffff00;
+        color: white;
+
+        /* font-size: 15px; */
+      }
+
+      .partner:hover {
+        background-color: #f8f9fa;
+        color: black;
+      }
+
+      .access {
+        height: 40px;
+      }
+
+      .right {
+        height: 1px;
+      }
+
+      .front {
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+      }
+
+      .text {
+        width: 56rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+      }
+
+      .front h1 {
+        color: #f8f9fa;
+        letter-spacing: -0.0275em;
+        font-size: 5.5rem;
+        font-weight: 500;
+        line-height: 1;
+        margin-bottom: 1rem;
+      }
+
+      .access1 {
+        margin-top: 2rem;
+        padding: 18px;
+        border-radius: 12px;
+        border: none;
+        font-size: 18px;
+        cursor: pointer;
+      }
+    </style>
+
+    <!-- https://assets-global.website-files.com/644160024e…cbf4a1a/65296b561021c6e2737ff939_hero-p-2000.webp -->
+  </head>
+  <body>
+    <div class="all">
+      <div class="main">
+        <div class="navbar">
+          <img src="/exercise-img/logo.jpg" alt="logo" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Other pages</a></li>
+            <li><a href="#">Templates</a></li>
+          </ul>
+          <button class="btn partner">Become Partner</button>
+          <button class="btn access">Get Early Access &rarr;</button>
+        </div>
+        <div class="front">
+          <div class="text">
+            <h1>The Measured Line, for life’s big moments</h1>
+            <button class="access1">Get Early Access &rarr;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
