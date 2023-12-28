@@ -56,23 +56,52 @@
 
 // const avgscoreDol = (96 + 108 + 89) / 3;
 // const avgscoreDol = (97 + 112 + 101) / 3;
-const avgscoreDol = (97 + 112 + 101) / 3;
+// const avgscoreDol = (97 + 112 + 101) / 3;
 // const avgscorekoa = (88 + 91 + 110) / 3;
 // const avgscorekoa = (109 + 95 + 123) / 3;
-const avgscorekoa = (109 + 95 + 106) / 3;
+// const avgscorekoa = (109 + 95 + 106) / 3;
 
-console.log(avgscoreDol, avgscorekoa);
+// console.log(avgscoreDol, avgscorekoa);
 
-if (avgscoreDol > avgscorekoa && avgscoreDol >= 100) {
-  console.log("Dolphin team is winner!");
-} else if (avgscoreDol < avgscorekoa && avgscorekoa >= 100) {
-  console.log("Koala team is winner!");
-} else if (
-  avgscoreDol === avgscorekoa &&
-  avgscoreDol >= 100 &&
-  avgscorekoa >= 100
-) {
-  console.log("It is draw game!");
-} else {
-  console.log("No one wins the trophy!");
-}
+// if (avgscoreDol > avgscorekoa && avgscoreDol >= 100) {
+//   console.log("Dolphin team is winner!");
+// } else if (avgscoreDol < avgscorekoa && avgscorekoa >= 100) {
+//   console.log("Koala team is winner!");
+// } else if (
+//   avgscoreDol === avgscorekoa &&
+//   avgscoreDol >= 100 &&
+//   avgscorekoa >= 100
+// ) {
+//   console.log("It is draw game!");
+// } else {
+//   console.log("No one wins the trophy!");
+// }
+
+// const day = monday;
+
+// switch (day) {
+//   case "monday": // day === monday
+//     console.log("I am busy!");
+//     break;
+//   case "tuesday":
+//     console.log("Oh too much work today!");
+//     break;
+//   case "wednesday":
+//     console.log("Ohh again work!");
+//     break;
+//   case "saturday":
+//     console.log("It is the party day! yoo");
+//     break;
+//   default:
+//     console.log("Not a valid day! Please try agian.");
+// }
+
+// const age = 18;
+// console.log(`I like to drink ${age >= 18 ? "wine🍷" : "juice🥤"}`);
+
+const bill = Number(prompt("Enter the bill amount"));
+const tip = bill >= 50 && bill <= 300 ? bill * (15 / 100) : bill * (20 / 100);
+console.log(tip);
+
+console.log(`“The bill was ${bill}, the tip was ${tip}, and the total value 
+${bill + tip}`);
