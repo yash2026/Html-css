@@ -12,9 +12,16 @@
 // line"
 // );
 
-const age = 19;
-const isOldenough = age >= 18;
+// const age = 19;
+// const isOldenough = age >= 18;
 
-if (isOldenough) {
-  console.log("Sarah can drive👍");
+// if (isOldenough) {
+//   console.log("Sarah can drive👍");
+// }
+
+function logger() {
+  console.log("My name is Yash");
 }
+
+//calling / running / invoking function
+logger();

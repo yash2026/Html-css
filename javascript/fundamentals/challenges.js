@@ -1,3 +1,4 @@
+"use strict";
 // const markMass = 78;
 // const johnMass = 92;
 // const markHeight = 1.69;
@@ -99,9 +100,9 @@
 // const age = 18;
 // console.log(`I like to drink ${age >= 18 ? "wine🍷" : "juice🥤"}`);
 
-const bill = Number(prompt("Enter the bill amount"));
-const tip = bill >= 50 && bill <= 300 ? bill * (15 / 100) : bill * (20 / 100);
-console.log(tip);
+// const bill = Number(prompt("Enter the bill amount"));
+// const tip = bill >= 50 && bill <= 300 ? bill * (15 / 100) : bill * (20 / 100);
+// console.log(tip);
 
-console.log(`“The bill was ${bill}, the tip was ${tip}, and the total value 
-${bill + tip}`);
+// console.log(`“The bill was ${bill}, the tip was ${tip}, and the total value
+// ${bill + tip}`);
